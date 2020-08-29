@@ -1,0 +1,27 @@
+mov [ebp], [esp]
+sub ebp, 4
+push 100
+pop [79090]
+mov ecx, [79090]
+cmp eax, exc
+xor eax, 0
+test eax, eax
+mov eax, 4
+sub eax, 1
+cmp eax, ebx
+pop [55141]
+push [55141]
+push ebx
+pop eax
+push eax
+pop [440303]
+pop [443905]
+xor eax, 0
+xor eax, eax
+nop
+test eax, 0
+xor eax, 0
+ret
+
+
+Applied rule number 3 as Compression rule to program point 2

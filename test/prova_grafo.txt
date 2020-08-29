@@ -1,0 +1,12 @@
+xor eax, eax
+test eax, eax
+call 4
+ret
+mov eax, 4
+sub eax, 1
+cmp eax, ebx
+jle 5
+nop
+mov [40939], ebx
+push [40939]
+ret

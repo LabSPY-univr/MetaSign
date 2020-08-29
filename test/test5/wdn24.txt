@@ -1,0 +1,12 @@
+mov [87280], 0
+xor eax, [87280]
+push 4
+pop [37969]
+mov eax, [37969]
+mov [27027], 10
+add eax, [27027]
+push eax
+ret
+
+
+Applied rule number 6 as Expansion rule to program point 3

@@ -1,0 +1,10 @@
+push T
+pop T
+push T
+pop T
+push T
+pop T
+ret
+
+
+Applied rule number 1 as Expansion rule to program point 0

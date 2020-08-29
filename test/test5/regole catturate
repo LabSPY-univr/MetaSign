@@ -1,0 +1,5 @@
+mov -> push,pop (ottenuta da xor,push,pop,add,push)
+push -> mov,push (ottenuta da xor,mov,add,mov,push)
+add -> add,mov (ottenuta da xor,mov,add,mov,push)
+xor,mov,add,push -> mov,xor,push,pop,add,push
+xor,mov,add,push ->

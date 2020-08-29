@@ -1,0 +1,31 @@
+mov [ebp], [esp]
+sub ebp, 4
+jmp 9
+push 100
+pop ecx
+cmp eax, exc
+je 3
+xor eax, 0
+test eax, eax
+call 11
+ret
+mov eax, 4
+sub eax, 1
+cmp eax, ebx
+jle 11
+nop
+mov eax, ebx
+push eax
+pop [440303]
+pop [443905]
+call 22
+ret
+call 25
+xor eax, eax
+ret
+xor eax, eax
+nop
+test eax, eax
+je 25
+xor eax, eax
+ret

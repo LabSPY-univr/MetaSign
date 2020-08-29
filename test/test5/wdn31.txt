@@ -1,0 +1,9 @@
+xor eax, 0
+mov eax, 4
+add eax, 10
+mov [83037], eax
+push [83037]
+ret
+
+
+Applied rule number 4 as Expansion rule to program point 3

@@ -1,0 +1,8 @@
+mov eax, 1
+cmp eax, 1000
+jge 5
+call 6
+jmp 1
+ret
+add eax, 1
+ret

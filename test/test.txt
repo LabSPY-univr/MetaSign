@@ -1,0 +1,19 @@
+xor eax, eax
+mov [ebp], 4
+pop [esp]
+mov [ebp], [esp]
+sub ebp, 4
+jmp 10
+push 100
+pop ecx
+add eax, 4
+mov [edx], [eax]
+add ebx, [edx]
+push eax
+push 4
+nop
+mov eax, ebx
+sub ebp, 4
+mov [esp], 100
+push [esp]
+ret

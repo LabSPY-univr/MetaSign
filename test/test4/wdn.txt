@@ -1,0 +1,4 @@
+xor eax, eax
+mov eax, 4
+push eax
+ret

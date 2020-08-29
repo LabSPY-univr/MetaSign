@@ -1,0 +1,9 @@
+push T
+pop T
+push T
+pop T
+mov T, T
+ret
+
+
+Applied rule number 3 as Expansion rule to program point 3

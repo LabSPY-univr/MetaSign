@@ -1,0 +1,4 @@
+-r
+-i
+test/test3/P1.txt,test/test3/P21.txt,test/test3/P22.txt,test/test3/P31.txt,test/test3/P32.txt,test/test3/P33.txt,test/test3/P34.txt,test/test3/P35.txt,test/test3/P36.txt,test/test3/P41.txt,test/test3/P42.txt,test/test3/P43.txt,test/test3/P44.txt,test/test3/P45.txt,test/test3/P46.txt,test/test3/P47.txt
+test/test3/P.txt

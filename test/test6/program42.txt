@@ -1,0 +1,26 @@
+mov [ebp], [esp]
+sub ebp, 4
+push 100
+pop ecx
+cmp eax, exc
+xor eax, 0
+test eax, eax
+push 4
+pop eax
+sub eax, 1
+cmp eax, ebx
+pop [79502]
+push [79502]
+mov eax, ebx
+push eax
+pop [440303]
+pop [443905]
+xor eax, 0
+xor eax, eax
+nop
+test eax, 0
+xor eax, 0
+ret
+
+
+Applied rule number 9 as Expansion rule to program point 11

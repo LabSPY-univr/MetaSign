@@ -1,0 +1,8 @@
+xor eax, eax
+push 4
+pop eax
+push eax
+ret
+
+
+Applied rule number 1 as Expansion rule to program point 1

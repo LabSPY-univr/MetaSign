@@ -1,0 +1,2 @@
+mov T, T
+ret

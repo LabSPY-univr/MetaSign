@@ -1,0 +1,4 @@
+-r
+-i
+test/test5/wdn11.txt,test/test5/wdn12.txt,test/test5/wdn13.txt,test/test5/wdn14.txt,test/test5/wdn21.txt,test/test5/wdn22.txt,test/test5/wdn23.txt,test/test5/wdn24.txt,test/test5/wdn31.txt,test/test5/wdn32.txt,test/test5/wdn33.txt,test/test5/wdn34.txt
+test/test5/wdn.txt

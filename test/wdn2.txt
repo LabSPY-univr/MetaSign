@@ -1,0 +1,6 @@
+xor eax, 0
+push 4
+pop eax
+mov [77463], eax
+push [77463]
+ret  

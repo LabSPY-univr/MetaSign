@@ -1,0 +1,9 @@
+++	mov->push,pop
+	
++	push->mov,push
+++
++
+++	pop->pop,mov
+++	add->mov,add
+++	xor->mov,xor
+

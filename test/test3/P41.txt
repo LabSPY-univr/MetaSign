@@ -1,0 +1,6 @@
+mov T, T
+push T
+pop T
+push T
+pop T
+ret

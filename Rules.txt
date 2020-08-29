@@ -1,0 +1,15 @@
+1) PUSH Imm / POP Reg         <-->  MOV Reg,Imm
+2) PUSH Reg / POP Reg2        <-->  MOV Reg2,Reg
+3) MOV Mem,Imm / PUSH Mem     <-->  PUSH Imm
+4) MOV Mem,Reg / PUSH Mem     <-->  PUSH Reg
+5) POP Mem2 / MOV Mem,Mem2    <-->  POP Mem
+6) POP Mem / MOV Reg,Mem      <-->  POP Reg
+7) MOV Mem,Imm / OP Reg,Mem   <-->  OP Reg,Imm
+8) MOV Mem2,Mem / OP Reg,Mem2 <-->  OP Reg,Mem
+9) POP Mem / PUSH Mem	      <-->  NOP
+10)MOV Mem,Reg / CALL Mem     <-->  CALL Reg
+11)MOV Mem2,Mem / CALL Mem2   <-->  CALL Mem
+12)MOV Mem,Reg / JMP Mem      <-->  JMP Reg
+13)PUSH Reg / RET	      <-->  JMP Reg
+14)MOV Mem2,Mem / JMP Mem2    <-->  JMP Mem
+15)POP Mem / JMP Mem	      <-->  RET

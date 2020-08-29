@@ -1,0 +1,28 @@
+mov [ebp], [esp]
+sub ebp, 4
+push 100
+pop [65914]
+mov [76299], [65914]
+mov ecx, [76299]
+cmp eax, exc
+xor eax, 0
+test eax, eax
+mov eax, 4
+sub eax, 1
+cmp eax, ebx
+nop
+push ebx
+pop eax
+push eax
+pop [440303]
+pop [443905]
+mov [14886], 0
+xor eax, [14886]
+xor eax, eax
+nop
+test eax, 0
+xor eax, 0
+ret
+
+
+Applied rule number 7 as Expansion rule to program point 18

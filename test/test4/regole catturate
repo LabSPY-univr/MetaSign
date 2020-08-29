@@ -1,0 +1,3 @@
+mov -> push,pop (ottenuta da xor,push,pop,push)
+mov -> mov,mov (ottenuta da xor,mov,mov,push)
+bastano queste due in quanto sussumono le altre

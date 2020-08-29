@@ -1,0 +1,5 @@
+xor eax, 0
+mov eax, 4
+add eax, 10
+push eax
+ret

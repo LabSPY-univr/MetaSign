@@ -1,0 +1,4 @@
+-r
+-i
+test/test6/program11.txt,test/test6/program12.txt,test/test6/program13.txt,test/test6/program14.txt,test/test6/program15.txt,test/test6/program21.txt,test/test6/program22.txt,test/test6/program23.txt,test/test6/program24.txt,test/test6/program25.txt,test/test6/program31.txt,test/test6/program32.txt,test/test6/program33.txt,test/test6/program34.txt,test/test6/program35.txt,test/test6/program41.txt,test/test6/program42.txt,test/test6/program43.txt,test/test6/program44.txt,test/test6/program45.txt,test/test6/program51.txt,test/test6/program52.txt,test/test6/program53.txt,test/test6/program54.txt,test/test6/program55.txt
+test/test6/program.txt
