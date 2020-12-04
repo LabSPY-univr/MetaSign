@@ -1,0 +1,15 @@
+pop ebx
+lea ecx, [ebx]
+nop
+nop
+push ecx
+push eax
+add eax, 1
+push eax
+sub esp, 1
+sub eax, 1
+pop ebx
+add ebx, 28
+mov ebp, 0
+mov ebp, [ebx]
+ret

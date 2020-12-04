@@ -1,0 +1,19 @@
+push ebp
+mov ebp, esp
+mov eax, [77800]
+mov ecx, [77900]
+lea edx, [77950]
+mov ebx, eax
+add ebx, ecx
+sub ebx, 1
+xor [ebx], 22
+sub ebx, 1
+sub ecx, 1
+cmp ecx, 0
+jne 9
+xor edx, 9
+and edx, 0
+mov esp, ebp
+pop ebp
+nop
+ret
