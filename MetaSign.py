@@ -89,11 +89,11 @@ def help():
     :return: None
     """
     print("""
-        Authors: Marco Campion, Mila Dalla Preda, Roberto Giacobazzi (University of Verona)
+        Author: Marco Campion vr383227 University of Verona
 
-        MetaSign.py: metamorphic engine, widening on programs as automata, learner of rewriting rules
+        meta.py: metamorphic engine and widening on programs as automata
 
-        Usage: python MetaSign.py [-h][-w][-e][-v][-s][-n <number>][-r][-i <variant1,variant2,...>][-l <number>] <first_program>
+        Usage: python meta.py [-h][-w][-e][-v][-s][-n <number>][-r][-i <variant1,variant2,...>][-l <number>] <first_program>
 
         -h (help) print this message
         -w widening on variants will be applied
@@ -358,7 +358,6 @@ if rewriting_rules:
     """
     # inferring all rules from the positive set
     print()
-    print("QUI GUARDO SOLO LE VARIANTI IN INPUT")
     print("positive_set:")
     print(positive_set)
     rules_inferred = infer(positive_set)
@@ -374,7 +373,6 @@ if rewriting_rules:
     print()
     """
 
-    #print("QUI PRENDO LE VARIANTI DAL WDN")
     edge_visited = graph_wdn.new_edge_property("bool")  # mark all edges as not visited
     roots = getRoots(graph_wdn, vertex_shape_wdn)
     all_visited = False

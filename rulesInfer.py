@@ -60,7 +60,7 @@ def printAllPathsUtil(g, vertex_name, u, d, k, edge_visited, path):
             if checkMarkEdges(g, edge_visited):
                 return True
     elif len(path) < k:
-        # If current vertex is not destination recursive for all the vertices adjacent to this vertex
+        # If current vertex is not destination, recursive for all the vertices adjacent to this vertex
         for i in g.vertex(u).out_neighbours():
             if printAllPathsUtil(g, vertex_name, int(i), d, k, edge_visited, path):
                 return True
@@ -144,7 +144,7 @@ def inferRules(var1, var2):
     i = 0
     while True:
         if len(str1) == 1:
-            rules.append([str1[0], str2.copy()])
+            if len(str2) == 2: rules.append([str1[0], str2.copy()])
             break
         if str1[i] == str2[i]:
             str1.pop(i)
@@ -154,7 +154,7 @@ def inferRules(var1, var2):
                 i = -1
             else:
                 if len(str1) == 1:
-                    rules.append([str1[0], str2.copy()])
+                    if len(str2) == 2: rules.append([str1[0], str2.copy()])
                 break
 
     # right simplify first then left
@@ -164,7 +164,7 @@ def inferRules(var1, var2):
     while True:
         if len(str1) == 1:
             if [str1[0], str2] not in rules:
-                rules.append([str1[0], str2.copy()])
+                if len(str2) == 2: rules.append([str1[0], str2.copy()])
             break
         if str1[i] == str2[i]:
             str1.pop(i)
@@ -175,7 +175,7 @@ def inferRules(var1, var2):
             else:
                 if len(str1) == 1:
                     if [str1[0], str2] not in rules:
-                        rules.append([str1[0], str2.copy()])
+                        if len(str2) == 2: rules.append([str1[0], str2.copy()])
                 break
 
     # left and right concurrently
@@ -185,7 +185,7 @@ def inferRules(var1, var2):
     while True:
         if len(str1) == 1:
             if [str1[0], str2] not in rules:
-                rules.append([str1[0], str2.copy()])
+                if len(str2) == 2: rules.append([str1[0], str2.copy()])
             break
         if str1[i] == str2[i]:
             str1.pop(i)
@@ -197,7 +197,7 @@ def inferRules(var1, var2):
         else:
             if len(str1) == 1:
                 if [str1[0], str2] not in rules:
-                    rules.append([str1[0], str2.copy()])
+                    if len(str2) == 2: rules.append([str1[0], str2.copy()])
             break
 
     return rules
